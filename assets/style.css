@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+div > h1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 3rem;
+  text-align: center;
+}
+body > div {
+  background-color: #cbf0f8;
+  font-family: "Mulish", sans-serif;
+  width: 60%;
+  margin-inline: auto;
+  border: 3px;
+  border-style: solid;
+
+  border-color: black;
+}
+hr {
+  border: 1px solid black;
+}
+
+hr:last-of-type {
+  margin-bottom: 5rem;
+}
+button {
+  border-radius: 5px;
+  background-color: #1a73e8;
+  font-weight: bold;
+  color: white;
+}
+ul {
+  list-style-type: circle;
+}
+#all-tasks h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+}
+#all-tasks {
+  margin-left: 2rem;
+  text-align: center;
+  width: 70%;
+  margin-inline: auto;
+  padding-bottom: 2rem;
+}
+
+.button-and-li {
+  padding: 1rem;
+  margin-left: 1rem;
+  text-align: left;
+}
+#my-form {
+  text-align: center;
+  margin-top: 5rem;
+  font-weight: bold;
+}
+#my-form > label {
+  font-weight: bold;
+}
