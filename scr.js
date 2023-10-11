@@ -25,6 +25,8 @@ window.onload = () => {
 
     const taskDone = (e) => {
       e.target.style = "text-decoration: line-through";
+      console.log(e.target.parentElement);
+      divForButtonAndLi.parentElement.appendChild(divForButtonAndLi);
       const btnToDeleteTask = document.createElement("button");
       divForButtonAndLi.appendChild(btnToDeleteTask);
       btnToDeleteTask.className = "button-delete-task";
